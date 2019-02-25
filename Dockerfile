@@ -48,7 +48,7 @@ RUN apt-get update && \
         php7.3-gd \
         php7.3-dev \
         php7.3-soap \
-        php7.3-pcntl \
+        php-pcntl \
         php7.3-xml \
         pkg-config \
         libcurl4-openssl-dev \
@@ -62,7 +62,6 @@ RUN apt-get update && \
         curl \
         vim \
         nano \
-        postgresql-client \
     && apt-get clean
 
 #####################################
