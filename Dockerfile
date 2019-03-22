@@ -61,6 +61,7 @@ RUN apt-get update && \
     curl \
     vim \
     nano \
+    unzip \
     && apt-get clean
 
 #####################################
